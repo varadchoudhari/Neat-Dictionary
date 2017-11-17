@@ -19,9 +19,18 @@ dictionary = {egg: ["Qty. 1", 1],
 ```python
 neat_printer(dictionary,["Item","Quantity","Price"],10)
 ```
-OUTPUT:
+OUTPUT when width == 10:
 ```
 Item      Quantity  Price
 egg       Qty. 1    1
 bread     Qty. 2    2
+```
+```python
+neat_printer(dictionary,["Item","Quantity","Price"],20)
+```
+OUTPUT when width == 20:
+```
+Item                Quantity            Price               
+egg                 Qty. 1              1                   
+bread               Qty. 2              2                   
 ```
