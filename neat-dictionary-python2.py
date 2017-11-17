@@ -26,3 +26,8 @@ def neat_printer(dictionary,titles,width):
         for subvalue in value:
             sv.append(subvalue)
         print formatting.format(key,*sv)
+
+d = {"egg":["Qty. 1",1],
+     "bread":["Qty. 2",2]}
+
+neat_printer(d,["Item","Quantity","Price"],20)
