@@ -12,7 +12,7 @@ What's inside
 
 How to use
 ---
-neat_reader
+neat_printer
 ```python
 dictionary = {egg: ["Qty. 1", 1],
               bread: ["Qty. 2", 2]}
