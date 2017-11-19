@@ -5,8 +5,8 @@ Works with Python 2
 
 What's inside
 ---
-* neat_printer
-* neat_writer
+1. neat-dictionary-fixed-column-width.py
+2. neat-dictionary-custom-column-width.py
 
 ...and more are coming!
 
@@ -46,7 +46,7 @@ dictionary = {egg: ["Qty. 1", 1],
 file = open("neat_writing.txt", "w")
 neat_writer(dictionary, ["Item","Quantity","Price"], 10, file)
 ```
-OUTPUT neat_writing.txt
+OUTPUT FILE:
 ```
 Item      Quantity  Price
 egg       Qty. 1    1
@@ -79,7 +79,7 @@ dictionary = {egg: ["Qty. 1", 1],
 file = open("neat_writing.txt", "w")
 neat_writer(dictionary, ["Item","Quantity","Price"], [6,10,10], file)
 ```
-OUTPUT neat_writing.txt
+OUTPUT FILE:
 ```
 Item  Quantity  Price
 egg   Qty. 1    1
