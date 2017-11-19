@@ -12,7 +12,7 @@ What's inside
 
 How to use
 ---
-neat-dictionary-fixed-column-width.py
+####neat-dictionary-fixed-column-width.py
 
 neat_printer
 ```python
@@ -53,7 +53,7 @@ egg       Qty. 1    1
 bread     Qty. 2    2
 ```
 
-neat-dictionary-custom-column-width.py
+####neat-dictionary-custom-column-width.py
 
 neat_printer
 ```python
