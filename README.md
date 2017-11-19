@@ -6,7 +6,11 @@ Works with Python 2
 What's inside
 ---
 1. neat-dictionary-fixed-column-width.py
+ * neat_printer
+ * neat_writer
 2. neat-dictionary-custom-column-width.py
+ * neat_printer
+ * neat_writer
 
 ...and more are coming!
 
