@@ -122,7 +122,7 @@ dictionary = {"egg":[["Qty. 1",1], ["Qty. 2",2], ["Qty. 4",3]],
 file = open("multiline_writing.txt", "w")
 multiline_writer(dictionary,["Item","Quantity","Price"],[6,10,10],file)
 ```
-OUTPUT
+OUTPUT FILE
 ```
 Item  Quantity  Price
 egg   Qty. 1    1
