@@ -36,3 +36,47 @@ def multiline_printer(dictionary,titles,width):
             for subvalue in value:
                 sv.append(subvalue)
             print formatting.format(key, *sv)
+'''
+multiline_writer
+params dictionary: Dictionary that you want to print
+titles: Titles you want to give for the table
+width: Width between the titles
+file: File you want to write dictionary to
+
+example:
+d = {"egg":[["Qty. 1",1], ["Qty. 2",2], ["Qty. 4",3]],
+     "bread":[["Qty. 2",2], ["Qty. 3",3]]}
+
+file = open("multiline_writer.txt", "w")
+
+multiline_writer(d,["Item","Quantity","Price"],[6,10,10],file)
+
+OUTPUT FILE:
+Item  Quantity  Price
+egg   Qty. 1    1
+egg   Qty. 2    2
+egg   Qty. 4    3
+bread Qty. 2    2
+bread Qty. 3    3
+'''
+
+def multiline_writer(dictionary,titles,width, file):
+    formatting = ""
+    for number in width:
+        formatting += "{:<" + str(number) + "}"
+    file.write(formatting.format(*titles))
+    file.write("\n")
+    for key, value in dictionary.iteritems():
+        if isinstance(value[0],list):
+            for sublist in value:
+                sv = []
+                for subvalue in sublist:
+                    sv.append(subvalue)
+                file.write(formatting.format(key,*sv))
+                file.write("\n")
+        else:
+            sv = []
+            for subvalue in value:
+                sv.append(subvalue)
+            file.write(formatting.format(key, *sv))
+            file.write("\n")

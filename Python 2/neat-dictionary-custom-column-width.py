@@ -42,7 +42,7 @@ file = open("neat_writer.txt", "w")
 
 neat_writer(d,["Item","Quantity","Price"],[6,10,10],file)
 
-OUTPUT: neat_writer.txt
+OUTPUT FILE:
 Item  Quantity  Price     
 egg   Qty. 1    1         
 bread Qty. 2    2   
