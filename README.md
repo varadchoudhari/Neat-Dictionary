@@ -134,3 +134,41 @@ egg   Qty. 4    3
 bread Qty. 2    2
 bread Qty. 3    3
 ```
+#### neat-multiline-fixed-width.py
+
+multiline_printer
+```python
+dictionary = {"egg":[["Qty. 1",1], ["Qty. 2",2], ["Qty. 4",3]],
+              "bread":[["Qty. 2",2], ["Qty. 3",3]]}
+```
+```python
+multiline_printer(dictionary,["Item","Quantity","Price"],10)
+```
+OUTPUT
+```
+Item      Quantity  Price
+egg       Qty. 1    1
+egg       Qty. 2    2
+egg       Qty. 4    3
+bread     Qty. 2    2
+bread     Qty. 3    3
+```
+
+multiline_writer
+```python
+dictionary = {"egg":[["Qty. 1",1], ["Qty. 2",2], ["Qty. 4",3]],
+              "bread":[["Qty. 2",2], ["Qty. 3",3]]}
+```
+```python
+file = open("multiline_writing.txt", "w")
+multiline_writer(dictionary,["Item","Quantity","Price"],10,file)
+```
+OUTPUT
+```
+Item      Quantity  Price
+egg       Qty. 1    1
+egg       Qty. 2    2
+egg       Qty. 4    3
+bread     Qty. 2    2
+bread     Qty. 3    3
+```
