@@ -14,6 +14,9 @@ What's inside
 3. neat-multiline-custom-width.py
    * multiline_printer
    * multiline_writer
+4. neat-multiline-fixed-width.py
+   * multiline_printer
+   * multiline_writer
 
 ...and more are coming!
 
