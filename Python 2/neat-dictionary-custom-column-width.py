@@ -2,7 +2,7 @@
 neat_printer
 params dictionary: Dictionary that you want to print
 titles: Titles you want to give for the table
-width: Width between the titles
+width: List of width between the titles
 
 example:
 d = {"egg":["Qty. 1",1],
@@ -31,7 +31,7 @@ def neat_printer(dictionary,titles,width):
 neat_writer
 params dictionary: Dictionary that you want to print
 titles: Titles you want to give for the table
-width: Width between the titles
+width: List of width between the titles
 file: File you want to write dictionary to
 
 example:
