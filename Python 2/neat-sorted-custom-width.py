@@ -14,6 +14,13 @@ OUTPUT:
 Item  Quantity  Price
 egg   Qty. 1    1
 bread Qty. 2    2
+
+neat_printer(d,["Item","Quantity","Price"],[6,10,10],"Price")
+
+OUTPUT:
+Item  Quantity  Price
+egg   Qty. 1    1
+bread Qty. 2    2
 '''
 
 def neat_printer(dictionary,titles,width,sort_by):
