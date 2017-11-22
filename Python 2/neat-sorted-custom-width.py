@@ -12,8 +12,8 @@ neat_printer(d,["Item","Quantity","Price"],[6,10,10],"Item")
 
 OUTPUT:
 Item  Quantity  Price
-egg   Qty. 1    1
 bread Qty. 2    2
+egg   Qty. 1    1  
 
 neat_printer(d,["Item","Quantity","Price"],[6,10,10],"Price")
 
@@ -59,8 +59,8 @@ neat_writer(d,["Item","Quantity","Price"],[6,10,10],file,"Item")
 
 OUTPUT FILE:
 Item  Quantity  Price     
-egg   Qty. 1    1         
-bread Qty. 2    2   
+bread Qty. 2    2         
+egg   Qty. 1    1    
 '''
 
 def neat_writer(dictionary,titles,width,file,sort_by):
@@ -84,3 +84,9 @@ def neat_writer(dictionary,titles,width,file,sort_by):
                 sv.append(subvalue)
             file.write(formatting.format(key, *sv))
             file.write("\n")
+
+
+d = {"egg":["Qty. 1",1],
+     "bread":["Qty. 2",2]}
+
+neat_printer(d,["Item","Quantity","Price"],[6,10,10],"Item")
