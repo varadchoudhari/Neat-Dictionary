@@ -3,6 +3,12 @@ A simple Python implementation to pretty print dictionaries
 
 Works with Python 2
 
+Features
+---
+* Set column width
+* Support for multi-line dictionaries 
+* Sort by column
+
 What's inside
 ---
 1. neat-dictionary-fixed-column-width.py
