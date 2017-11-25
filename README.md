@@ -27,8 +27,6 @@ What's inside
    * neat_printer
    * neat_writer
 
-...and more are coming!
-
 How to use
 ---
 #### neat-dictionary-fixed-column-width.py
