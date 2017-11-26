@@ -1,7 +1,9 @@
 # Neat-Dictionary
 A simple Python implementation to pretty print dictionaries
 
-Works with Python 2
+Supports
+   - Python 2
+   - Python 3
 
 Features
 ---
