@@ -30,12 +30,12 @@ def multiline_printer(dictionary,titles,width):
                 sv = []
                 for subvalue in sublist:
                     sv.append(subvalue)
-                print formatting.format(key,*sv)
+                print (formatting.format(key,*sv))
         else:
             sv = []
             for subvalue in value:
                 sv.append(subvalue)
-            print formatting.format(key, *sv)
+            print (formatting.format(key, *sv))
 '''
 multiline_writer
 params dictionary: Dictionary that you want to print
