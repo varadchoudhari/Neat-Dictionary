@@ -40,7 +40,7 @@ def neat_printer(dictionary,titles,width,sort_by):
             sv = []
             for subvalue in value:
                 sv.append(subvalue)
-            print formatting.format(key, *sv)
+            print (formatting.format(key, *sv))
 
 '''
 neat_writer
